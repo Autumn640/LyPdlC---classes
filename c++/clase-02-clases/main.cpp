@@ -1,6 +1,5 @@
 #include <iostream> 
 #include "Student.h"
-#include <string>
 using namespace std;
 
 struct student{ //structura student
@@ -12,26 +11,22 @@ struct student{ //structura student
 
 
 int main(){
-    student stud1;
-    Student *obj1 = new Student();
-    obj1->estudiar();
+    student stud1; //objeto simple de la estructura student
+        Student *obj1 = new Student();
+        obj1->estudiar(); //llamando al metodo estudiar de la clase Student
+
+
 
     cout << "Ingrese el nombre del estudiante: ";
     cin >> stud1.nombre;
-
     cout << "Ingrese la carrera del estudiante: ";
-    cin >> ws;                    // descarta espacios/salto de línea sobrantes
-    getline(cin, stud1.carrera);  // permite "ing sistemas" completo
-
+    cin >> stud1.carrera;
     cout << "Ingrese la edad del estudiante: ";
     cin >> stud1.edad;
-
     cout << "Ingrese el semestre del estudiante: ";
     cin >> stud1.semestre;
 
-    cout << "hola!" << stud1.nombre << " de " << stud1.carrera 
-         << " y tiene " << stud1.edad << " años y está en el semestre " 
-         << stud1.semestre << endl;
+    cout << "hola! " << stud1.nombre << " de " << stud1.carrera << " y tiene " << stud1.edad << " años y está en el semestre " << stud1.semestre << endl;
 
     return 0; 
 }
