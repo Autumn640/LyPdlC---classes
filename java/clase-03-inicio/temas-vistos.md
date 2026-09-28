@@ -2,4 +2,4 @@
 - branches into
 ## jse (java standard edition) 
 - and
- ## Jakarta ( spring buot)
+ ## Jakarta ( spring boot)

@@ -7,7 +7,7 @@ public class Ovni {
 
 
 
-Ovni(String tipo, String origen){
+Ovni(String tipo, String origen){ //constructor con parametros para inicializar los atributos de la clase
     this.tipo = tipo;
     this.origen = origen;
    
