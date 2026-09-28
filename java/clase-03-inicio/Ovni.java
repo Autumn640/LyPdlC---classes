@@ -15,6 +15,21 @@ Ovni(String tipo, String origen){ //constructor con parametros para inicializar 
 
 Ovni(){}
 
+public void setTipo(String tipo) { //metodo setter para asignar un valor al atributo tipo
+    this.tipo = tipo;
+}
+
+public void setOrigen(String origen) { //metodo setter para asignar un valor al atributo origen
+    this.origen = origen;
+}
+
+public String getTipo() { //metodo getter para obtener el valor del atributo tipo
+    return tipo;
+}
+
+public String getOrigen() { //metodo getter para obtener el valor del atributo origen
+    return origen;
+}
 
 
 //metodos
@@ -33,5 +48,4 @@ Ovni(){}
 
     }
 
-    
 }
